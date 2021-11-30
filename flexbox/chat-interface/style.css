@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    justify-content: flex-end;
+}
+
+.message {
+    display: block;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    width: fit-content;
+    max-width: 70%;
+}
+
+.message.sent {
+    background: hsl(240deg 100% 47%);
+    color: white;
+    align-self: flex-end;
+}
+
+.message.received {
+    background: hsl(0deg 0% 90%);
+    color: black;
+}

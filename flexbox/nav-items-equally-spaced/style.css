@@ -1,0 +1,28 @@
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: baseline; /*this would align the base of the characters as if they were written in a notebook*/
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    padding: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+    color: black;
+    cursor: pointer;
+}
+
+@media (min-width: 370px) {
+    ul {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}

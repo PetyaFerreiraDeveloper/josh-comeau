@@ -1,0 +1,20 @@
+html, body { /* this insures the ball will be in the center for both mobile and desktop*/
+    height: 100%;
+}
+
+body {
+    background: purple;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.ball {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: yellow;
+}
